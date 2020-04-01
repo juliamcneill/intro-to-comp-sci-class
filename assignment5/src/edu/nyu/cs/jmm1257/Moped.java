@@ -42,7 +42,8 @@ public class Moped {
 			// set the new street value
 			this.street = newStreet;
 		} else {
-			System.out.println("You're at the edge of Manhattan! Head in another direction so that you don't fall off.");
+			System.out.println("You're at the edge of Manhattan! "
+					+ "Head in another direction so that you don't fall off.");
 		}
 		
 	}
@@ -66,7 +67,8 @@ public class Moped {
 			// set the new avenue value
 			this.avenue = newAvenue;
 		} else {
-			System.out.println("You're at the edge of Manhattan! Head in another direction so that you don't fall off.");
+			System.out.println("You're at the edge of Manhattan! "
+					+ "Head in another direction so that you don't fall off.");
 		}
 		
 	}
@@ -156,13 +158,16 @@ public class Moped {
 		 System.out.print("Now at " + this.street + streetEnding + " St. and " + this.avenue + avenueEnding + " Ave., facing " + this.orientation + ". ");
 		 // print the relevant ad on the same line, if applicable
 		 if (this.street == 79 && this.avenue == 8) {
-			 System.out.println("Did you know that the American Museum of Natural History has a 429-seat Space Theater, which features a custom-made Zeiss Mark IX Star Projector that displays a hyperrealistic view of planets, star clusters, nebulae, and galaxies?"); 
+			 System.out.println("Did you know that the American Museum of Natural History has a 429-seat Space Theater, which features a custom-made Zeiss "
+			 		+ "Mark IX Star Projector that displays a hyperrealistic view of planets, star clusters, nebulae, and galaxies?"); 
 		 } else if (this.street == 74 && this.avenue == 1) {
-			 System.out.println("Did you know that Memorial Sloan Kettering Cancer Center uses targeted tumor sequencing tests to detect gene mutations and other critical genetic aberrations in both rare and common cancers?");
+			 System.out.println("Did you know that Memorial Sloan Kettering Cancer Center uses targeted tumor sequencing tests to detect gene mutations and "
+			 		+ "other critical genetic aberrations in both rare and common cancers?");
 		 } else if (this.street == 12 && this.avenue == 4) {
 			 System.out.println("Did you know The Strand has 18 Miles of new, used and rare books, and has been in business since 1927?");
 		 } else if (this.street == 3 && this.avenue == 6) {
-			 System.out.println("Did you know that Fay Da Bakery sells sponge cakes, mmango mochi, fruit tarts, chocolate éclairs, and many other tasty snacks?");
+			 System.out.println("Did you know that Fay Da Bakery sells sponge cakes, mmango mochi, fruit tarts, chocolate éclairs, and many other tasty "
+			 		+ "snacks?");
 		 } else {
 			 // move the next line if no ad is applicable
 			 System.out.println("");
